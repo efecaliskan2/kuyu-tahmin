@@ -1,0 +1,148 @@
+{
+  "aciklama": "Tarla icindeki tum sondaj noktalari. Tarihler kullanicinin 'X yil once' ifadesinden hesaplandi (bugun: Agustos 2026).",
+  "MUDAHALE_KISITI": "SADECE tarla ici kuyulara (K1-K7, M1) mudahale edilebilir: derinlestirme, olcum, tracer testi. D1-D5 baskalarinin kuyusudur - yalnizca GOZLEM verisi olarak kullanilir, uzerlerinde islem yapilamaz.",
+  "kuyular": [
+    {
+      "isim": "K1",
+      "enlem": 0.0001109,
+      "boylam": 0.0039295,
+      "tip": "sulu",
+      "toplam_derinlik_m": 100,
+      "ilk_suya_girilen_derinlik_m": null,
+      "statik_su_seviyesi_m": null,
+      "verim": "gunde 6 saat calistirilirsa ~30 ton/gun (soylenen)",
+      "pompa": "7.5 beygir dalgic",
+      "durum": "aktif",
+      "acilis": "2023 haziran-temmuz",
+      "sondaj_notlari": null
+    },
+    {
+      "isim": "K2",
+      "enlem": 0.0001889,
+      "boylam": 0.0034974,
+      "tip": "kuru",
+      "toplam_derinlik_m": 100,
+      "ilk_suya_girilen_derinlik_m": 100,
+      "verim": "5 dakika su verip kurudu",
+      "durum": "kuru",
+      "acilis": "2023 haziran-temmuz",
+      "sondaj_notlari": "cok kisa sureli su - muhtemelen kucuk izole catlak/cep"
+    },
+    {
+      "isim": "K3",
+      "enlem": 0.0004307,
+      "boylam": -0.0005167,
+      "tip": "sulu",
+      "toplam_derinlik_m": 60,
+      "ilk_suya_girilen_derinlik_m": 30,
+      "verim": "surekli calisirsa 1 saatte 16 ton verip duruyor, 24 saat sonra ayni dongu; 2 saat dinlendir + 15 dk cek ile surekli su",
+      "pompa": "5.5 beygir dalgic",
+      "durum": "aktif (dongulu)",
+      "acilis": "2016-2018 arasi, bahar",
+      "sondaj_notlari": "sinirli beslemeli hazne davranisi - catlak deposu dolunca veriyor, bosalinca bekliyor"
+    },
+    {
+      "isim": "K4",
+      "enlem": 2.6e-05,
+      "boylam": -0.000629,
+      "tip": "kuru",
+      "toplam_derinlik_m": 60,
+      "durum": "kuru",
+      "sondaj_notlari": "60 m'de birakildi. K3 (47 m kuzeyinde) 30 m'de su buldu - derinlik sorunu degil, dar kanal disinda kalmis."
+    },
+    {
+      "isim": "K5",
+      "enlem": 0.0006268,
+      "boylam": -0.0031126,
+      "tip": "kuru",
+      "toplam_derinlik_m": 80,
+      "durum": "kuru",
+      "sondaj_notlari": "80 m'de birakildi. Tarlada su 30-220 m arasi degisen derinliklerde bulundu; 80 m sinirli bir arama - 'su yok' degil 'ilk 80 m'de su yok' demek."
+    },
+    {
+      "isim": "K6",
+      "enlem": 0.000373,
+      "boylam": -0.0032587,
+      "tip": "kuru",
+      "toplam_derinlik_m": 60,
+      "durum": "kuru",
+      "sondaj_notlari": "60 m'de birakildi. K5'e 33 m mesafede, ikisi de sig arama - bati uc icin 'su yok' hukmu vermek icin yetersiz derinlik.",
+      "veri_kalitesi_uyarisi": "Koordinat, sinir olcumundeki 3 kez tekrarlanan bayat GPS fix'iyle birebir ayni ([koordinat kaldırıldı], [koordinat kaldırıldı]) - konum dogrulanmali"
+    },
+    {
+      "isim": "K7",
+      "enlem": -0.0002754,
+      "boylam": 0.0020571,
+      "tip": "sulu",
+      "toplam_derinlik_m": 220,
+      "verim": "8 saatte bir 40 dakika su veriyor",
+      "boru": "2 inch",
+      "pompa": "20 beygir dalgic",
+      "durum": "aktif (dongulu, dusuk verim)",
+      "koordinat_kaynagi": "kullanici tarafindan DMS olarak dogrulandi: [koordinat kaldırıldı] [koordinat kaldırıldı]",
+      "sondaj_notlari": "Kazilirken kimyasal ilac vuruldu, kokusu K3'ten geldi - K3 ile ayni kanal sistemine bagli"
+    },
+    {
+      "isim": "M1",
+      "enlem": -0.0002999,
+      "boylam": 0.0024978,
+      "tip": "magara",
+      "magara_girilen_derinlik_m": 20,
+      "durum": "sondaj birakildi",
+      "konum_kalitesi": "tahmini",
+      "konum_belirsizlik_m": 25,
+      "sondaj_notlari": "20 metrede bosluk/magara cikti, sondajin calismayacagi soylendi",
+      "veri_kalitesi_uyarisi": "KOORDINAT TAHMINI. Kullanici duzeltmesi: K7'nin yaklasik 50 m DOGUSUNDA. K7 pininden 50 m doguya kaydirildi. Kesin konum alinana kadar modelde dusuk agirlikla kullanilacak."
+    },
+    {
+      "isim": "D1",
+      "kategori": "dis",
+      "enlem": 0.0003653,
+      "boylam": 0.0033549,
+      "tip": "dis_sulu",
+      "verim": "7.5 beygir motora gore 5 dakika araliksiz su verir; hatri sayilir sure kullanildi",
+      "durum": "bilgi sinirli",
+      "sondaj_notlari": "zayif-orta pozitif belirtec; K2'ye ~25 m"
+    },
+    {
+      "isim": "D2",
+      "kategori": "dis",
+      "enlem": 0.0005043,
+      "boylam": 0.004085,
+      "tip": "dis_sulu",
+      "verim": "10 beygir pompa ile 24 saat su verebilir, guzel su",
+      "durum": "kuyu coktugu icin kullanilamiyor",
+      "sondaj_notlari": "GUCLU pozitif belirtec; K1'e ~47 m, kuzeydogu su bolgesini dogruluyor"
+    },
+    {
+      "isim": "D3",
+      "kategori": "dis",
+      "enlem": -0.0010987,
+      "boylam": 0.0019478,
+      "tip": "dis_kurumus",
+      "durum": "2021'e dogru su varmis, kurumus",
+      "sondaj_notlari": "guney sinirda; tarihsel pozitif ama guncel negatif - zayif/karma sinyal"
+    },
+    {
+      "isim": "D4",
+      "kategori": "dis",
+      "enlem": 0.0036283,
+      "boylam": 0.0034104,
+      "tip": "dis_sulu",
+      "verim": "24 saat araliksiz cok iyi su",
+      "durum": "aktif (tarladan ~345 m kuzeyde)",
+      "sondaj_notlari": "bolgesel akifer gostergesi; uzaklik nedeniyle dusuk agirlikla kullanilacak"
+    },
+    {
+      "isim": "D5",
+      "kategori": "dis",
+      "enlem": 0.0007763,
+      "boylam": -0.0015926,
+      "tip": "dis_sulu",
+      "verim": "2 inch boru, surekli su",
+      "durum": "bilgi cok kisitli",
+      "sondaj_notlari": "kuzey sinirin ~27 m disinda; K3 civarindaki su hattini destekliyor"
+    }
+  ],
+  "_ANONIM": "Koordinatlar anonimlestirildi: goreli geometri korundu, gercek konum kaldirildi. Bkz. araclar/anonimlestir.py"
+}

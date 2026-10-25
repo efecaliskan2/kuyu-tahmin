@@ -1,0 +1,13 @@
+{
+  "aciklama": "MALIYET VARSAYIMLARI - gercek fiyatlarinizla degistirin! Simdiki degerler yer tutucudur.",
+  "para_birimi": "TL",
+  "metre_basi_sondaj": 1500,
+  "kurulum_nakliye_sabit": 25000,
+  "teçhizat_kuyu_basina": 60000,
+  "not_teçhizat": "Boru, kilif, dalgic pompa, pano vb. Sadece SU CIKAN kuyuda harcanir.",
+  "jeofizik_etut": 60000,
+  "not_jeofizik": "Elektrik ozdirenc (ERT/VES) etudu, tarla geneli. Gercek teklif alin.",
+  "derinlestirme_ek_kurulum": 15000,
+  "not_derinlestirme": "Mevcut kuyuyu derinlestirmek icin makine kurulumu (yeni kuyudan ucuz).",
+  "_ANONIM": "Koordinatlar anonimlestirildi: goreli geometri korundu, gercek konum kaldirildi. Bkz. araclar/anonimlestir.py"
+}

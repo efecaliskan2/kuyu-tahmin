@@ -1,0 +1,16 @@
+{
+  "aciklama": "dogrulama.py tarafindan uretildi",
+  "en_iyi_parametreler": {
+    "eksen_acisi_derece": 30,
+    "menzil_eksen_m": 130,
+    "menzil_dik_m": 10,
+    "pseudo_agirlik": 0.15
+  },
+  "loo_beceri": 0.3272,
+  "izotropik_beceri": NaN,
+  "permutasyon_ortalama": 0.3249,
+  "permutasyon_p_degeri": 0.452,
+  "istatistiksel_olarak_anlamli": false,
+  "karar": "mekansal tahmin haritasi uretilmemeli - veri yetersiz",
+  "_ANONIM": "Koordinatlar anonimlestirildi: goreli geometri korundu, gercek konum kaldirildi. Bkz. araclar/anonimlestir.py"
+}

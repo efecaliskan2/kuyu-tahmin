@@ -1,0 +1,42 @@
+{
+  "aciklama": "Tarla sınır koordinatları - WGS84, poligon sırasıyla. Kullanıcı uydu görüntüsünden tıklayarak seçti (4 ondalık, ~11 m hassasiyet). P4 GPS'ten, doğrulanmış.",
+  "koordinat_sistemi": "WGS84 (enlem, boylam)",
+  "koseler": [
+    {
+      "etiket": "S1 (bati ucu)",
+      "enlem": 0.0001413,
+      "boylam": -0.0034806
+    },
+    {
+      "etiket": "S2 (kuzeybati)",
+      "enlem": 0.0006413,
+      "boylam": -0.0031632
+    },
+    {
+      "etiket": "S3 (kuzey kenar)",
+      "enlem": 0.0005413,
+      "boylam": -0.0026076
+    },
+    {
+      "etiket": "S4 (kuzey kenar orta)",
+      "enlem": 0.0005413,
+      "boylam": -0.0001474
+    },
+    {
+      "etiket": "S5 (kuzeydogu)",
+      "enlem": 0.0004413,
+      "boylam": 0.0040588
+    },
+    {
+      "etiket": "S6 (guneydogu - eski P4, GPS)",
+      "enlem": -0.0012476,
+      "boylam": 0.0034239
+    },
+    {
+      "etiket": "S7 (guney kenar)",
+      "enlem": -0.0010587,
+      "boylam": 0.001916
+    }
+  ],
+  "_ANONIM": "Koordinatlar anonimlestirildi: goreli geometri korundu, gercek konum kaldirildi. Bkz. araclar/anonimlestir.py"
+}

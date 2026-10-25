@@ -1,0 +1,21 @@
+# Gerçek GPS verisi — ASLA paylaşılmaz.
+# Tarlanın ve komşulara ait kuyuların kesin konumlarını içerir.
+# Paylaşılabilir anonim sürüm: ornek_veri/ (bkz. araclar/anonimlestir.py)
+data/
+
+# Temizlenecek yer adları listesi — listenin kendisi konumu ele verir
+araclar/gizli_terimler.txt
+
+# Üretilen haritalar gerçek koordinatları gömülü olarak taşır
+*.html
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# İşletim sistemi
+Thumbs.db
+.DS_Store

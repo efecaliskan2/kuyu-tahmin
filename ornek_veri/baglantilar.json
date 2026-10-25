@@ -1,0 +1,18 @@
+{
+  "aciklama": "Kimyasal koku testi gozlemleri. Koku GELMEYENLER de veri.",
+  "testler": [
+    {
+      "ilac_dokulen_kuyu": "K7",
+      "koku_gelen_kuyular": [
+        "K3"
+      ],
+      "koku_gelmeyen_kuyular": [
+        "belirtilmedi - kullaniciya sorulacak"
+      ],
+      "koku_ulasma_suresi": null,
+      "zaman": "K7 kazilirken (ilac sondaj sirasinda vuruldu)",
+      "not": "K7 ve M1 koordinatlari henuz net degil; netlesince bu baglanti yon analizine dahil edilecek. Mevcut (dogrulanmamis) koordinatlarla K3-K7 arasi ~297 m."
+    }
+  ],
+  "_ANONIM": "Koordinatlar anonimlestirildi: goreli geometri korundu, gercek konum kaldirildi. Bkz. araclar/anonimlestir.py"
+}

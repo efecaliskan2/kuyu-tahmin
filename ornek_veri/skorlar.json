@@ -1,0 +1,94 @@
+{
+  "aciklama": "Her sondaj noktasinin modele giris degerleri. Elle duzenlenebilir.",
+  "alanlar": {
+    "verim_skoru": "0=hic su yok, 1=cok guclu surekli su. Kuyunun gozlenen su verimi.",
+    "guven": "Bu gozleme ne kadar guveniyoruz (0-1). Tarla ici + detayli bilgi = yuksek; uzak/eksik bilgi = dusuk.",
+    "su_derinligi_m": "Suyun bulundugu derinlik. null = bilinmiyor, modelde kullanilmaz.",
+    "su_derinligi_tahmini": "true ise deger kesin degil, kuyu derinliginden tahmin edildi."
+  },
+  "skorlar": {
+    "K1": {
+      "verim_skoru": 0.85,
+      "guven": 1.0,
+      "su_derinligi_m": 90,
+      "su_derinligi_tahmini": true,
+      "gerekce": "Gunde 6 saatte ~30 ton, 7.5 bg pompa. Tarlanin en iyi kuyusu. Su derinligi bilinmiyor, 100 m'lik kuyuda tabana yakin varsayildi."
+    },
+    "K2": {
+      "verim_skoru": 0.12,
+      "guven": 1.0,
+      "su_derinligi_m": 100,
+      "su_derinligi_tahmini": true,
+      "gerekce": "100 m'de 5 dakika su verip kurudu. Izole kucuk cep - pratikte kuru sayilir."
+    },
+    "K3": {
+      "verim_skoru": 0.8,
+      "guven": 1.0,
+      "su_derinligi_m": 30,
+      "su_derinligi_tahmini": false,
+      "gerekce": "30 m'de su, 60 m derinlik. Dinlendirmeli calismayla gunde ~25 ton. Sig ve verimli."
+    },
+    "K4": {
+      "verim_skoru": 0.05,
+      "guven": 0.85,
+      "su_derinligi_m": null,
+      "gerekce": "60 m kuru. K3'e 47 m mesafede ve K3 30 m'de su buldu - bu derinlikte su olmamasi kanal disinda kalmakla aciklanir, guven yuksek."
+    },
+    "K5": {
+      "verim_skoru": 0.05,
+      "guven": 0.55,
+      "su_derinligi_m": null,
+      "gerekce": "80 m kuru. Tarlada su 30-220 m arasinda bulundu; 80 m sinirli arama, 'su yok' hukmu zayif."
+    },
+    "K6": {
+      "verim_skoru": 0.05,
+      "guven": 0.45,
+      "su_derinligi_m": null,
+      "gerekce": "60 m kuru. K5 ile ayni bolgede ve daha da sig. Ayrica koordinati bayat GPS fix'i olabilir - guven dusuk."
+    },
+    "K7": {
+      "verim_skoru": 0.3,
+      "guven": 1.0,
+      "su_derinligi_m": 220,
+      "su_derinligi_tahmini": true,
+      "gerekce": "220 m, 8 saatte bir 40 dk. Su var ama besleme cok zayif. Derin ve pahali."
+    },
+    "M1": {
+      "verim_skoru": 0.08,
+      "guven": 0.6,
+      "su_derinligi_m": null,
+      "gerekce": "20 m'de kuru bosluk. Drene olmus karst kanali. Konum tahmini oldugu icin guven dusuruldu."
+    },
+    "D1": {
+      "verim_skoru": 0.3,
+      "guven": 0.5,
+      "su_derinligi_m": null,
+      "gerekce": "Tarla disi. 7.5 bg ile 5 dk araliksiz su - zayif ama sifir degil. Bilgi kisitli."
+    },
+    "D2": {
+      "verim_skoru": 0.9,
+      "guven": 0.6,
+      "su_derinligi_m": null,
+      "gerekce": "Tarla disi. 10 bg ile 24 saat, guzel su. Kuyu coktu ama SU vardi - jeolojik olarak guclu pozitif."
+    },
+    "D3": {
+      "verim_skoru": 0.2,
+      "guven": 0.5,
+      "su_derinligi_m": null,
+      "gerekce": "Tarla disi. 2021'e dogru su vardi, kurudu. Tarihsel pozitif / guncel negatif."
+    },
+    "D4": {
+      "verim_skoru": 0.95,
+      "guven": 0.3,
+      "su_derinligi_m": null,
+      "gerekce": "Tarla disi, ~350 m kuzeyde. 24 saat cok iyi su. Uzak oldugu icin dusuk agirlik - bolgesel gosterge."
+    },
+    "D5": {
+      "verim_skoru": 0.7,
+      "guven": 0.5,
+      "su_derinligi_m": null,
+      "gerekce": "Tarla disi, kuzey sinirin 27 m disinda. Surekli su, 2 inch boru. Bilgi kisitli."
+    }
+  },
+  "_ANONIM": "Koordinatlar anonimlestirildi: goreli geometri korundu, gercek konum kaldirildi. Bkz. araclar/anonimlestir.py"
+}
